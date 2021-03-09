@@ -13,6 +13,13 @@ Blog
 
 
 
+
+Paper
+
+
+[High-density genetic map using whole-genome resequencing for fine mapping and candidate gene discovery for disease resistance in peanut](https://onlinelibrary.wiley.com/doi/epdf/10.1111/pbi.12930)
+
+
 Flash
 
 
