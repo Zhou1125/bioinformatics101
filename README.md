@@ -11,4 +11,13 @@
 
 - #### [MCMC V1](https://www.jianshu.com/p/b12e058c6597) [MCMC V2](http://www.chenlianfu.com/?p=2974)  
 
+- #### [paml parat ka ks codeml](https://blog.csdn.net/weixin_42376118/article/details/112065784) | [ka ks v2](http://blog.sciencenet.cn/blog-3433349-1241328.html)
+
 [jianshu blog](https://www.jianshu.com/u/740f4b0f11e9)
+
+[ZHUBLOG](https://zhuanlan.zhihu.com/)
+
+[pipeline for comparative genomics and evolutionnary](https://blog.csdn.net/qq_36608036/article/details/109466468?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.baidujs&dist_request_id=1328626.667.16153013339855743&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.baidujs)
+
+
+- #### [rna SEQ](https://zhuanlan.zhihu.com/p/61847802)
