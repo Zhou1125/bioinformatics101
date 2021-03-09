@@ -28,3 +28,4 @@
 
 - #### [CAFE tutorial](https://www.jianshu.com/p/146093c91e2b) | [original](https://iu.app.box.com/v/cafetutorial-pdf)
 - #### [wgdi](https://xuzhougeng.blog.csdn.net/article/details/114013801)
+- #### [HiC pro singularity](https://xuzhougeng.blog.csdn.net/article/details/109892648)
