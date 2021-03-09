@@ -6,3 +6,5 @@
 
 
 - #### [rnaseq nextflow](https://sr-c.github.io/2020/05/25/RNA-seq-DiffExp-analysis/)
+
+- #### [jvciMCscan python](https://sr-c.github.io/2019/01/11/jcvi-MCscan/)
