@@ -13,6 +13,10 @@
 
 - #### [paml parat ka ks codeml](https://blog.csdn.net/weixin_42376118/article/details/112065784) | [ka ks v2](http://blog.sciencenet.cn/blog-3433349-1241328.html)
 
+
+
+[zhugueng blog](https://xuzhougeng.blog.csdn.net/)
+
 [jianshu blog](https://www.jianshu.com/u/740f4b0f11e9)
 
 [ZHUBLOG](https://zhuanlan.zhihu.com/)
