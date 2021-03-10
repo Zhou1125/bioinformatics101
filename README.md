@@ -47,6 +47,7 @@ Flash
 - How to use HPC job and so on [msu edu high coumputer plateform](https://wiki.hpcc.msu.edu/) 
 - Bioinfo small [tuto](https://wiki.hpcc.msu.edu/display/ITH/Bioinformatics)
 - Example [GTAK4](https://wiki.hpcc.msu.edu/display/ITH/GATK4) 
+- install repeatmasker with a modified conda based [strategy](https://xuzhougeng.blog.csdn.net/article/details/102804531)
 - [Installing maker with conda](https://wiki.hpcc.msu.edu/display/ITH/Installing+maker+using+conda)
 
 
