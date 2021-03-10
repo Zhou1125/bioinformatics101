@@ -50,6 +50,10 @@ Flash
 - install repeatmasker with a modified conda based [strategy](https://xuzhougeng.blog.csdn.net/article/details/102804531)
 - [Installing maker with conda](https://wiki.hpcc.msu.edu/display/ITH/Installing+maker+using+conda)
 - [CAFE](https://xuzhougeng.blog.csdn.net/article/details/102804514)
+- #### ggplot2 [example1](https://www.jianshu.com/p/68aa08ef9f61)
+- #### [mercury](https://www.jianshu.com/p/61fefb9a9c5f)
+- #### [Phylogenomic_Tutorial || Bayesian Phylogenetic Inference](https://www.jianshu.com/p/7983618c51d4)
+- #### [Phylogenomic_Tutorial || ML_Tree inference](https://www.jianshu.com/p/282a94b50418)
 
 
 
