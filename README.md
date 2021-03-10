@@ -49,7 +49,7 @@ Flash
 - Example [GTAK4](https://wiki.hpcc.msu.edu/display/ITH/GATK4) 
 - install repeatmasker with a modified conda based [strategy](https://xuzhougeng.blog.csdn.net/article/details/102804531)
 - [Installing maker with conda](https://wiki.hpcc.msu.edu/display/ITH/Installing+maker+using+conda)
-
+- [CAFE](https://xuzhougeng.blog.csdn.net/article/details/102804514)
 
 
 
