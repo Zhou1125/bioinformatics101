@@ -1,5 +1,8 @@
 # bioinformatics101
 
+- #### [Speciation & Population Genomics: a how-to-guide](https://speciationgenomics.github.io/)
+
+
 
 Blog
 
