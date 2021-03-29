@@ -1,5 +1,11 @@
 # bioinformatics101
 
+
+
+- #### [Interactive introduction to statistics and probabilities](https://seeing-theory.brown.edu/#firstPage)
+
+
+
 - #### [Speciation & Population Genomics: a how-to-guide](https://speciationgenomics.github.io/)
 
 
