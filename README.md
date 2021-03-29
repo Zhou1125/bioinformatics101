@@ -1,5 +1,6 @@
 # bioinformatics101
 
+- #### Integrating Molecular Biology and Bioinformatics Education| [Paper](https://www.degruyter.com/document/doi/10.1515/jib-2019-0005/html) | [AppliedGenomeResearch](https://github.com/bpucker/AppliedGenomeResearch)
 
 
 - #### [Interactive introduction to statistics and probabilities](https://seeing-theory.brown.edu/#firstPage)
