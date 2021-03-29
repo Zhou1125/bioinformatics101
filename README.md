@@ -2,7 +2,7 @@
 
 
 
-- #### [Plant Breeding and Genomics](https://plant-breeding-genomics.extension.org/)
+- #### [Plant Breeding and Genomics Learning Lessons](https://plant-breeding-genomics.extension.org/plant-breeding-and-genomics-learning-lessons/)
 
 - #### [SNP-Based Genetic Linkage Maps for Potato](https://plant-breeding-genomics.extension.org/snp-based-genetic-linkage-maps-for-potato/)
 
