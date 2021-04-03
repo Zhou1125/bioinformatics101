@@ -1,5 +1,26 @@
 # bioinformatics101
 
+
+question: transpose-multiple-rows-into-a-single-column
+
+
+Answer [here](https://www.linuxquestions.org/questions/linux-newbie-8/transpose-multiple-rows-into-a-single-column-873623/)
+
+For space tab delimitade
+```pyton 
+
+awk 'RT' RS=" " test.input
+
+```
+For comma separeted file
+
+```python
+
+awk 'RT' RS="," test.comma.input > out
+
+```
+
+
 - #### [snp_CAPS](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4785002/pdf/66_244.pdf) | [Lee 1](http://www.koreabreedjournal.org/journal/view.html?doi=10.9787/KJBS.2014.46.2.116) | [Lee 2](http://www.plantbreedbio.org/journal/view.html?volume=8&number=3&spage=293&year=2020)
 
 
