@@ -1,6 +1,11 @@
 # bioinformatics101
 
 
+
+Long-read-tools.org: an interactive catalogue of analysis methods for long-read sequencing data [WEBSITE](https://long-read-tools.org/)
+
+
+
 [Samtools markdup for duplicate removal or Picard?](https://www.researchgate.net/post/Samtools_markdup_for_duplicate_removal_or_Picard)
 
 
