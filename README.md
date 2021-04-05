@@ -1,6 +1,9 @@
 # bioinformatics101
 
 
+[Samtools markdup for duplicate removal or Picard?](https://www.researchgate.net/post/Samtools_markdup_for_duplicate_removal_or_Picard)
+
+
 question: transpose-multiple-rows-into-a-single-column
 
 
