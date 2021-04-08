@@ -75,7 +75,7 @@ Flash
 
 - #### [rnaseq nextflow](https://sr-c.github.io/2020/05/25/RNA-seq-DiffExp-analysis/)
 
-- #### [jvciMCscan python](https://sr-c.github.io/2019/01/11/jcvi-MCscan/)
+- #### [jvciMCscan python](https://sr-c.github.io/2019/01/11/jcvi-MCscan/) | [original tutorial](https://github.com/tanghaibao/jcvi/wiki/MCscan-%28Python-version%29) | [additionnal tuto](https://www.jianshu.com/p/39448b970287)
 
 - #### [MCMC V1](https://www.jianshu.com/p/b12e058c6597) [MCMC V2](http://www.chenlianfu.com/?p=2974)  [MCMC Tree](https://www.jianshu.com/p/b12e058c6597)
 
