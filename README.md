@@ -1,5 +1,23 @@
 # bioinformatics101
 
+BREAKING NEWS Today 18 april 2021| Heng Li [tweet](https://twitter.com/lh3lh3/status/1383515558306451465)
+
+
+> Hifiasm v0.15 released with much improved Hi-C mode especially for non-human species. Also for HiFi-only data, it now outputs two partially phased complete assemblies in addition to primary+alternate contigs. 
+
+
+So it is possible to get the phased diploid assembly. Then perform a scaffolding later.... NB: Hifiasm is not yet a scaffolder...
+
+
+Great! 
+
+
+A good idea is to use hifi data + Hifiasm + hi-c data + SALSA or 3DNA to get quite good diploid accurate chromosome scale data. 
+
+
+
+
+
 
 
 Long-read-tools.org: an interactive catalogue of analysis methods for long-read sequencing data [WEBSITE](https://long-read-tools.org/)
