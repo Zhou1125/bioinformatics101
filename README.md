@@ -1,5 +1,12 @@
 # bioinformatics101
 
+Amaizing tools for Hi-C visualisation and other genomics data | available on conda
+
+- #### 2021 | [CoolBox: A flexible toolkit for visual analysis of genomics data](https://www.biorxiv.org/content/10.1101/2021.04.15.439923v1)
+
+- #### 2020 | [Cooler: scalable storage for Hi-C data and other genomically labeled arrays](https://academic.oup.com/bioinformatics/article/36/1/311/5530598)
+
+
 BREAKING NEWS Today 18 april 2021| Heng Li [tweet](https://twitter.com/lh3lh3/status/1383515558306451465)
 
 
