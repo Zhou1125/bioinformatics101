@@ -7,6 +7,13 @@ Amaizing tutorial with GATK from ScilifeLab [NGS workflow](https://scilifelab.gi
 
 An other one found [here](https://github.com/ReiGao/GWSBE/blob/master/2.bwa.sh)
 
+An other one [here](http://costalab.org/wp-content/uploads/2017/05/lecture_3_ngs.pdf)
+
+Great [PPT1](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/nichols/presentations/ohbm2014/imggen/Nho-ImgGen-WGSeqPractical.pdf0)
+
+Great [PPT2](https://scilifelab.github.io/courses/ngsintro/1509/slides/NGS_AJ.pdf)
+
+[Pipeline explained](https://learn.gencore.bio.nyu.edu/variant-calling/pre-processing/)
 
 Amaizing tools for Hi-C visualisation and other genomics data | available on conda
 
