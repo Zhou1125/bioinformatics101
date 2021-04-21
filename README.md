@@ -1,5 +1,13 @@
 # bioinformatics101
 
+- #### Variant calling
+
+
+Amaizing tutorial with GATK from ScilifeLab [NGS workflow](https://scilifelab.github.io/courses/ngsintro/1805/labs/NGS_workflow)
+
+
+
+
 Amaizing tools for Hi-C visualisation and other genomics data | available on conda
 
 - #### 2021 | [CoolBox: A flexible toolkit for visual analysis of genomics data](https://www.biorxiv.org/content/10.1101/2021.04.15.439923v1)
