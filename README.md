@@ -1,5 +1,9 @@
 # bioinformatics101
 
+- #### Just found today this south american bioinfomatics society [github](https://github.com/eead-csic-compbio?tab=repositories)
+
+
+
 - #### Variant calling
 
 
