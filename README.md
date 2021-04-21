@@ -5,7 +5,7 @@
 
 Amaizing tutorial with GATK from ScilifeLab [NGS workflow](https://scilifelab.github.io/courses/ngsintro/1805/labs/NGS_workflow)
 
-
+An other one found [here](https://github.com/ReiGao/GWSBE/blob/master/2.bwa.sh)
 
 
 Amaizing tools for Hi-C visualisation and other genomics data | available on conda
