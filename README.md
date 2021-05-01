@@ -1,5 +1,9 @@
 # bioinformatics101
 
+
+[ISMB 2020 Training on long read transcriptome]()
+
+
 - #### Just found today this south american bioinfomatics society [github](https://github.com/eead-csic-compbio?tab=repositories)
 
 
