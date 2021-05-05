@@ -6,8 +6,34 @@
 
 [A perl script to visualize intergated genetic map(s) and synteny map(s) at chromosome level](https://github.com/XuepengSun/MapViewer)
 
+```perl
+version: v0.5 (03/09/2018)
+Useage:
+	
+	perl MapViewer.pl [options]
+	
+options:
+	[input]
+		-syn	synteny file name [if set two files, "map" is not allowed; <=2]
+		-map	map file name [multiple files can be specified with comma]
+		-gap	gap file, gaps between scaffods in the pseudochromosome
+		-help	this help information
+		
+	[display]
+			parameters for display can be adjusted within the script
+			
+	[file format]
+		synteny file: 
+			<chr_id>\t<chr_length>\t<chr_start>\t<chr_end>\t<ref_chr_id>\t<ref_chr_length>\t<ref_chr_start>\t<ref_chr_end>
+		
+		map file:
+			<chr_id>\t<chr_length>\t<chr_pos>\t<LG_id>\t<LG_distance>\t<LG_position>
+			
+		gap file:
+			<chr_id>\t<gap start position>\t<gap length>
+			
 
-
+```
 
 ![img](https://github.com/Yedomon/bioinformatics101/blob/main/Chr1.png)
 
