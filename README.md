@@ -1,7 +1,18 @@
 # bioinformatics101
 
 
-[ISMB 2020 Training on long read transcriptome](https://zenodo.org/record/4732317#.YI1yLu3iuUk)
+
+
+
+[A perl script to visualize intergated genetic map(s) and synteny map(s) at chromosome level](https://github.com/XuepengSun/MapViewer)
+
+
+
+
+![img]()
+
+
+- #### [ISMB 2020 Training on long read transcriptome](https://zenodo.org/record/4732317#.YI1yLu3iuUk)
 
 
 - #### Just found today this south american bioinfomatics society [github](https://github.com/eead-csic-compbio?tab=repositories)
