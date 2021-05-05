@@ -9,7 +9,7 @@
 
 
 
-![img]()
+![img](https://github.com/Yedomon/bioinformatics101/blob/main/Chr1.png)
 
 
 - #### [ISMB 2020 Training on long read transcriptome](https://zenodo.org/record/4732317#.YI1yLu3iuUk)
