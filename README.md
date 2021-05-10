@@ -1,6 +1,11 @@
 # bioinformatics101
 
+[Performance of Mapping Approaches for Whole-Genome Bisulfite Sequencing Data in Crop Plants](https://www.frontiersin.org/articles/10.3389/fpls.2020.00176/full?report=reader#h3)
 
+![img](https://www.frontiersin.org/files/Articles/504419/fpls-11-00176-HTML/image_m/fpls-11-00176-g002.jpg)
+
+
+[Code availability](https://github.com/grehl/benchWGBSmap)
 
 
 
