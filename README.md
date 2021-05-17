@@ -1,5 +1,92 @@
 # bioinformatics101
 
+
+MCScan code
+
+
+I will use diamond for blastp and synvisio as visualization tool.
+
+- Very important point 1: eliminate * symbole from the protein file
+
+
+- Vey important point 2: Arrange the GGF file following the example from the github page in data
+
+
+- Very important point 3: Rename the chromosome id by doinf AT1 for Arabidopsis thaliana chromosome 1
+
+
+- Very important point 4: Performe the blastp run for every single pairing like if you have twop genomes A and B, do the blastp for A vs A, B vs B, A vs B and B vs A
+
+- Very important point 5: for the GFF file eliminate with excel the duplicated genes 
+- Very important point 6: Concatenate all blastp file as weell as gff files 
+- After running use the output file for synvisio online. It is much more faster
+
+
+# Step 1: blastp  of pc versus pc
+
+source activate diamond_env
+
+diamond makedb --in perilla_v1.0_protein_without_point.fasta  -p 64 -d perilla_v1.0_protein_without_point
+
+diamond blastp -d perilla_v1.0_protein_without_point -q perilla_v1.0_protein_without_point.fasta -p 64 --evalue 0.00001 --out pc_vs_pc_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.pc_pc &
+
+# Step 2: blastp of pc versus at
+
+diamond makedb --in Athaliana_447_Araport11.protein.cleaned.fa  -p 64 -d Athaliana_447_Araport11.protein.cleaned
+
+
+diamond blastp -d Athaliana_447_Araport11.protein.cleaned -q perilla_v1.0_protein_without_point.fasta -p 64 --evalue 0.00001 --out pc_vs_ara_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.pc_ara &
+
+
+# Step 3: blastp of at versus pc
+
+
+diamond makedb --in perilla_v1.0_protein_without_point.fasta  -p 64 -d perilla_v1.0_protein_without_point
+
+diamond blastp -d perilla_v1.0_protein_without_point -q Athaliana_447_Araport11.protein.cleaned.fa -p 64 --evalue 0.00001 --out ara_vs_pc_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.ara_pc &
+
+
+
+# step 4:blastp at versus at
+
+
+diamond makedb --in Athaliana_447_Araport11.protein.cleaned.fa  -p 64 -d Athaliana_447_Araport11.protein.cleaned
+
+
+diamond blastp -d Athaliana_447_Araport11.protein.cleaned -q Athaliana_447_Araport11.protein.cleaned.fa -p 64 --evalue 0.00001 --out ara_vs_ara_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.ara_ara &
+
+
+
+
+
+
+
+# Step 5: Concatenate both
+
+
+cat pc_vs_pc_diamond.cleaned.csv pc_vs_ara_diamond.cleaned.csv ara_vs_pc_diamond.cleaned.csv ara_vs_ara_diamond.cleaned.csv > pc_at.blast
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [Performance of Mapping Approaches for Whole-Genome Bisulfite Sequencing Data in Crop Plants](https://www.frontiersin.org/articles/10.3389/fpls.2020.00176/full?report=reader#h3)
 
 ![img](https://www.frontiersin.org/files/Articles/504419/fpls-11-00176-HTML/image_m/fpls-11-00176-g002.jpg)
