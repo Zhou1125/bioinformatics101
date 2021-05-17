@@ -24,11 +24,15 @@ I will use diamond for blastp and synvisio as visualization tool.
 
 # Step 1: blastp  of pc versus pc
 
+```python
+
 source activate diamond_env
 
 diamond makedb --in perilla_v1.0_protein_without_point.fasta  -p 64 -d perilla_v1.0_protein_without_point
 
 diamond blastp -d perilla_v1.0_protein_without_point -q perilla_v1.0_protein_without_point.fasta -p 64 --evalue 0.00001 --out pc_vs_pc_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.pc_pc &
+
+```
 
 # Step 2: blastp of pc versus at
 
