@@ -36,41 +36,46 @@ diamond blastp -d perilla_v1.0_protein_without_point -q perilla_v1.0_protein_wit
 
 # Step 2: blastp of pc versus at
 
+
+```python
+
 diamond makedb --in Athaliana_447_Araport11.protein.cleaned.fa  -p 64 -d Athaliana_447_Araport11.protein.cleaned
 
 
 diamond blastp -d Athaliana_447_Araport11.protein.cleaned -q perilla_v1.0_protein_without_point.fasta -p 64 --evalue 0.00001 --out pc_vs_ara_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.pc_ara &
 
+```
+
 
 # Step 3: blastp of at versus pc
 
+```python
 
 diamond makedb --in perilla_v1.0_protein_without_point.fasta  -p 64 -d perilla_v1.0_protein_without_point
 
 diamond blastp -d perilla_v1.0_protein_without_point -q Athaliana_447_Araport11.protein.cleaned.fa -p 64 --evalue 0.00001 --out ara_vs_pc_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.ara_pc &
 
-
+```
 
 # step 4:blastp at versus at
 
-
+```python
 diamond makedb --in Athaliana_447_Araport11.protein.cleaned.fa  -p 64 -d Athaliana_447_Araport11.protein.cleaned
 
 
 diamond blastp -d Athaliana_447_Araport11.protein.cleaned -q Athaliana_447_Araport11.protein.cleaned.fa -p 64 --evalue 0.00001 --out ara_vs_ara_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.ara_ara &
 
-
-
-
+```
 
 
 
 # Step 5: Concatenate both
 
+```python
 
 cat pc_vs_pc_diamond.cleaned.csv pc_vs_ara_diamond.cleaned.csv ara_vs_pc_diamond.cleaned.csv ara_vs_ara_diamond.cleaned.csv > pc_at.blast
 
-
+```
 
 
 
