@@ -1,6 +1,13 @@
 # bioinformatics101
 
 
+[CuteSV github](https://github.com/tjiangHIT/cuteSV) | [Paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02107-y)
+
+
+
+
+
+
 [Genome Informatics Facility](https://github.com/ISUgenomics)
 
 
