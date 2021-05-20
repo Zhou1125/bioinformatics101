@@ -1,6 +1,17 @@
 # bioinformatics101
 
 
+[A pseudomolecule-scale genome assembly of the liverwort Marchantia polymorpha](https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.14602)
+
+Tres bon boulot surout pour la detection des centromeres 
+
+Seydina Issa. Diop,
+
+
+
+Oliver Subotic,Alejandro Giraldo-Fonseca,Manuel Waller,Alexander Kirbis,Anna Neubauer,Giacomo Potente,Rachel Murray-Watson,Filip Boskovic,Zoe Bont,Zsofia Hock,Adam C. Payton,Daniël Duijsings,Walter Pirovano,Elena Conti,Ueli Grossniklaus,Stuart F. McDaniel,Péter Szövényi
+
+
 [CuteSV github](https://github.com/tjiangHIT/cuteSV) | [Paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02107-y)
 
 Diapo 1
