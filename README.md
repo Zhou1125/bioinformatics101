@@ -3,9 +3,18 @@
 
 [CuteSV github](https://github.com/tjiangHIT/cuteSV) | [Paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02107-y)
 
+Diapo 1
+
+![img](https://github.com/Yedomon/bioinformatics101/blob/main/cuteSV.PNG)
+
+Diapo 2
+
+![img](https://github.com/Yedomon/bioinformatics101/blob/main/cuteSV2.PNG)
 
 
+Diapo 3
 
+![img](https://github.com/Yedomon/bioinformatics101/blob/main/cuteSV3.PNG)
 
 
 [Genome Informatics Facility](https://github.com/ISUgenomics)
