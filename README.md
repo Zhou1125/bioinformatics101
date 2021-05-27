@@ -1,5 +1,41 @@
 # bioinformatics101
 
+# Make a gene density file using RIdeogram R package
+
+
+```r
+
+require(RIdeogram)
+library(RIdeogram)
+
+Mihong_karyotype <- read.table("Mihong_Chr.txt", sep = "", header = T, stringsAsFactors = F)
+Mihong_karyotype
+
+
+Mihong_gene_density-2 <- GFFex(input = "Mihong_GFF.gff", karyotype = "Mihong_Chr.txt", feature = "gene", window = 100000)
+Mihong_gene_density
+
+ideogram(karyotype = Mihong_karyotype, overlaid = Mihong_gene_density)
+convertSVG("chromosome.svg", device = "png")
+
+```
+
+
+Note:
+
+The karyotype should be formatted as follow:
+
+- Save in txt file in excel. csv doesn't work!!!!!!!
+- for the GFF file ........
+
+
+
+
+
+
+
+
+
 
 [A pseudomolecule-scale genome assembly of the liverwort Marchantia polymorpha](https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.14602)
 
