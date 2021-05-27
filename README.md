@@ -1,5 +1,18 @@
 # bioinformatics101
 
+
+Watching SMRT Leiden 2021 | Leaf to go presentation By Luca Ermini
+
+
+[LongQC tool for quality control](https://www.g3journal.org/content/10/4/1193#:~:text=LongQC%20is%20a%20computationally%20efficient,introduced%20at%20the%20sequencing%20stage.)  
+
+Utilise cela pour ton article
+
+
+[svpack]() | new hifi asssembler called [LJA](https://www.biorxiv.org/content/10.1101/2020.12.10.420448v1.full)
+
+
+
 # Make a gene density file using RIdeogram R package
 
 
