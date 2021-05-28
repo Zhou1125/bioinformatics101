@@ -102,6 +102,30 @@ I will use diamond for blastp and synvisio as visualization tool.
 - After running use the output file for synvisio online. It is much more faster
 
 
+Note: In some protein file, there is "*" . Diamond tools is sensitive to those star symboles. So It is important to remove them by doing:
+
+
+```bash
+
+cat final_perilla4x.protein_rename.fasta | sed 's/[*]//g ' >  final_perilla4x.protein_rename_cleaned.fasta
+
+
+```
+
+
+
+After getting the result of blast, you may need to convert the csv format into a tabulate format before running mcscan. So do:
+
+
+```bash
+
+sed 's|,|\t|g' pc_pf.blast.csv > pc_pf.blast
+
+```
+
+
+
+
 # Step 1: blastp  of pc versus pc
 
 ```python
