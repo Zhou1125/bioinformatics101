@@ -1,0 +1,136 @@
+blastp -subject perilla_v1.0_protein.fasta -query Athaliana_447_Araport11.protein.fa -num_threads 64 -out pc_vs_ara -outfmt 6 &> log.run.pc_ara & # Too long
+
+
+# eliminate . and * from Arabidopsis file
+
+
+cat Athaliana_447_Araport11.protein.fa | sed 's/[.]//g ' | sed 's/[*]//g ' >  Athaliana_447_Araport11.protein.cleaned.fa # work. il sagit de delete tout point et non remplacer
+
+cat perilla_v1.0_protein.fasta | sed 's/[.]//g ' > perilla_v1.0_protein_without_point.fasta # work. il sagit de delete tout point et non remplacer
+
+
+source activate diamond_env
+
+diamond makedb --in Athaliana_447_Araport11.protein.cleaned.fa  -p 64 -d Athaliana_447_Araport11.protein.cleaned
+
+
+diamond blastp -d Athaliana_447_Araport11.protein.cleaned -q perilla_v1.0_protein_without_point.fasta -p 64 --out pc_vs_ara_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.pc_ara &
+
+
+###################################################################################################
+
+cat perilla_v1.0_protein.fasta | awk '{gsub(/.1/,"_1")}1' | sed 's/.$/ / ' > perilla_v1.0_protein_without_point.fasta  ne marche pas
+s
+
+cat perilla_v1.0_protein.fasta | sed 's/.$// ' > perilla_v1.0_protein_without_point.fasta # ne marche pas
+
+diamond blastp -d Athaliana_447_Araport11.protein -q perilla_v1.0_protein.fasta -p 64 --out pc_vs_ara --outfmt 6 &> log.run.diamond.pc_ara & # problem of dot in the fasta file
+
+
+
+sed 's|,|\t|g' pcgff.csv > pcgff.tab
+
+sed 's|,|\t|g' pc_atgff.csv > pc_atgff.tab
+
+
+sed 's|,|\t|g' pc_at_new.csv > pc_at_new_gff.tab
+
+sed 's|,|\t|g' pc_at_new_3.csv > pc_at_new_3_gff.tab
+
+sed 's|,|\t|g' pc_at_4.csv > pc_at_4.blast
+
+
+
+/NABIC/HOME/bae209/7_MCScanX/MCScanX/MCScanX /NABIC/HOME/bae209/syntheny/06.syntheny/pc_at/pc_at
+
+/NABIC/HOME/bae209/7_MCScanX/MCScanX/MCScanX /NABIC/HOME/bae209/syntheny/06.syntheny/pc_at_2/pc_at_2
+
+
+/NABIC/HOME/bae209/7_MCScanX/MCScanX/MCScanX /NABIC/HOME/bae209/syntheny/06.syntheny/pc_at_3/pc_at_3
+
+/NABIC/HOME/bae209/7_MCScanX/MCScanX/MCScanX /NABIC/HOME/bae209/syntheny/06.syntheny/pc_at_3/pc_at_4
+
+###################
+
+Trying to work with PF today
+
+
+Step 1: Prepare the data for diamond blastp
+
+
+## Perilla fruescens
+
+cat final_perilla4x.protein_rename.fasta | sed 's/[*]//g ' >  final_perilla4x.protein_rename_cleaned.fasta
+
+Step 2: Blastp with diamond
+
+source activate diamond_env
+
+diamond makedb --in final_perilla4x.protein_rename_cleaned.fasta  -p 64 -d final_perilla4x.protein_rename_cleaned
+
+diamond blastp -d final_perilla4x.protein_rename_cleaned -q perilla_v1.0_protein_without_point.fasta -p 64 --evalue 0.00001 --out pc_vs_pf_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.pc_pf &
+
+
+
+sed 's|,|\t|g' pc_pf.blast.csv > pc_pf.blast
+
+
+
+
+/NABIC/HOME/bae209/7_MCScanX/MCScanX/MCScanX /NABIC/HOME/bae209/7_MCScanX/MCScanX/MCScanX-master/data/at_vv
+
+###################################Try again PC versus Ara
+
+
+
+
+# Step 1: blastp  of pc versus pc
+
+source activate diamond_env
+
+diamond makedb --in perilla_v1.0_protein_without_point.fasta  -p 64 -d perilla_v1.0_protein_without_point
+
+diamond blastp -d perilla_v1.0_protein_without_point -q perilla_v1.0_protein_without_point.fasta -p 64 --evalue 0.00001 --out pc_vs_pc_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.pc_pc &
+
+# Step 2: blastp of pc versus at
+
+diamond makedb --in Athaliana_447_Araport11.protein.cleaned.fa  -p 64 -d Athaliana_447_Araport11.protein.cleaned
+
+
+diamond blastp -d Athaliana_447_Araport11.protein.cleaned -q perilla_v1.0_protein_without_point.fasta -p 64 --evalue 0.00001 --out pc_vs_ara_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.pc_ara &
+
+
+# Step 3: blastp of at versus pc
+
+
+diamond makedb --in perilla_v1.0_protein_without_point.fasta  -p 64 -d perilla_v1.0_protein_without_point
+
+diamond blastp -d perilla_v1.0_protein_without_point -q Athaliana_447_Araport11.protein.cleaned.fa -p 64 --evalue 0.00001 --out ara_vs_pc_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.ara_pc &
+
+
+
+# step 4:blastp at versus at
+
+
+diamond makedb --in Athaliana_447_Araport11.protein.cleaned.fa  -p 64 -d Athaliana_447_Araport11.protein.cleaned
+
+
+diamond blastp -d Athaliana_447_Araport11.protein.cleaned -q Athaliana_447_Araport11.protein.cleaned.fa -p 64 --evalue 0.00001 --out ara_vs_ara_diamond.cleaned.csv --outfmt 6 &> log.run.diamond.cleaned.ara_ara &
+
+
+
+
+
+
+
+# Step 5: Concatenate both
+
+
+cat pc_vs_pc_diamond.cleaned.csv pc_vs_ara_diamond.cleaned.csv ara_vs_pc_diamond.cleaned.csv ara_vs_ara_diamond.cleaned.csv > pc_at.blast
+
+
+
+
+
+
+
