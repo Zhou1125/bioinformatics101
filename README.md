@@ -1,5 +1,18 @@
 # bioinformatics101
 
+From this [Assembling vertebrate genomes](https://www.nature.com/articles/s41576-021-00379-z) Arang Rhie suggests 
+
+> The highest-quality Anna’s hummingbird genome was achieved by generating haplotype-separated contigs using Pacific Biosciences continuous long reads, followed by scaffolding with 10× Genomics linked reads, Bionano optical maps and Phase Genomics Hi-C; gap filling, base call polishing and manual curation completed the workflow.
+
+
+
+So haplotipe resolves contigs assembly > Scaffolding with 10x genomics > Bionano optical map > Hi-C > Gap filling > Manual correction
+
+
+
+
+
+
 
 Watching SMRT Leiden 2021 | Leaf to go presentation By Luca Ermini
 
