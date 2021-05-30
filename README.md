@@ -1,5 +1,12 @@
 # bioinformatics101
 
+Awesome disovring today 30 May 2021 | [Video](https://youtu.be/P18iAOj9LEk) | [bioarchive](https://www.biorxiv.org/content/10.1101/2021.03.12.435103v1.full) | [code avaliablity](https://github.com/UMNKimballLab/NWRGenomeAssembly_v1.0)
+
+
+Each figure est bien expliquee avec les codes a l'appuie. Jai sauve les codes ici dans le github. Awesome.
+
+
+
 
 
 
