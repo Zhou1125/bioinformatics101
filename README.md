@@ -1,5 +1,20 @@
 # bioinformatics101
 
+
+
+
+TASSEL workshop  [video1](https://youtu.be/BY_6qSIW4Rk) | [video2](https://youtu.be/hiReCEINEVs) | [google group](https://groups.google.com/g/tassel) | [github](https://github.com/SushanRu/TASSEL-workshop) | [
+University of Minnesota Plant Breeding Center](https://www.youtube.com/channel/UCl1JgjWhfTqG7DqRl6j_zlA)
+
+
+
+
+
+
+
+
+
+
 From this [Assembling vertebrate genomes](https://www.nature.com/articles/s41576-021-00379-z) Arang Rhie suggests 
 
 > The highest-quality Anna’s hummingbird genome was achieved by generating haplotype-separated contigs using Pacific Biosciences continuous long reads, followed by scaffolding with 10× Genomics linked reads, Bionano optical maps and Phase Genomics Hi-C; gap filling, base call polishing and manual curation completed the workflow.
