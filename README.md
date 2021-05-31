@@ -1,5 +1,27 @@
 # bioinformatics101
 
+
+
+Just see on twitter new tool for read mapping using long-reads | [Vulcan](https://gitlab.com/treangenlab/vulcan) | Use vulcan for mapping and [sniffles](https://github.com/fritzsedlazeck/Sniffles/wiki) for SV calling |
+
+
+
+
+```
+
+conda install -c bioconda vulcan
+
+conda install sniffles
+
+
+./vulcan -r ./test/GCF_000146045.2_R64_genomic.fna -i ./test/test_reads.fa -w ./test/ -o vulcan
+
+
+./sniffles -m mapped.sort.bam -v output.vcf
+
+```
+
+
 Awesome disovring today 30 May 2021 | [Video](https://youtu.be/P18iAOj9LEk) | [bioarchive](https://www.biorxiv.org/content/10.1101/2021.03.12.435103v1.full) | [code avaliablity](https://github.com/UMNKimballLab/NWRGenomeAssembly_v1.0)
 
 
