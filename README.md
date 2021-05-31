@@ -2,7 +2,7 @@
 
 
 
-Just see on twitter new tool for read mapping using long-reads | [Vulcan](https://gitlab.com/treangenlab/vulcan) | Use vulcan for mapping and [sniffles](https://github.com/fritzsedlazeck/Sniffles/wiki) for SV calling |
+Just see on twitter new tool for read mapping using long-reads | [Vulcan](https://gitlab.com/treangenlab/vulcan) | Use [vulcan](https://www.biorxiv.org/content/10.1101/2021.05.29.446291v1?s=03) for mapping and [sniffles](https://github.com/fritzsedlazeck/Sniffles/wiki) for SV calling |
 
 
 
@@ -11,7 +11,7 @@ Just see on twitter new tool for read mapping using long-reads | [Vulcan](https:
 
 conda install -c bioconda vulcan
 
-conda install sniffles
+conda install -c bioconda sniffles
 
 
 ./vulcan -r ./test/GCF_000146045.2_R64_genomic.fna -i ./test/test_reads.fa -w ./test/ -o vulcan
