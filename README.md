@@ -4,6 +4,9 @@
 
 Just see on twitter new tool for read mapping using long-reads | [Vulcan](https://gitlab.com/treangenlab/vulcan) | Use [vulcan](https://www.biorxiv.org/content/10.1101/2021.05.29.446291v1?s=03) for mapping and [sniffles](https://github.com/fritzsedlazeck/Sniffles/wiki) for SV calling |
 
+Un bon [tutorial](https://ressources.france-bioinformatique.fr/sites/default/files/5%20-%20Variants%20Structuraux.pdf) sour les SV.
+
+
 
 
 
