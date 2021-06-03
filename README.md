@@ -2,7 +2,7 @@
 
 
 
-
+2021 June 02 | [Gentle introduction on PacBio Hifi](https://youtu.be/1aqnLQ-nwYk)
 
 MCScan code
 
