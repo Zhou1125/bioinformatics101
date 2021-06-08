@@ -1,6 +1,12 @@
 # bioinformatics101
 
 
+[genomics lite A new programme of live webinars for upper secondary science students](https://publicengagement.wellcomeconnectingscience.org/genomics-lite)
+
+
+
+
+
 
 
 Just released today 08th June 2021. An ITol tool alternative in R
