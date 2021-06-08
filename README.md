@@ -2,6 +2,14 @@
 
 
 
+
+Just released today 08th June 2021. An ITol tool alternative in R
+
+- Paper[https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab166/6294410] | [Usage](https://bioconductor.org/packages/devel/bioc/vignettes/ggtreeExtra/inst/doc/ggtreeExtra.html) | [Github](https://github.com/YuLab-SMU/ggtreeExtra/)
+
+
+
+
 2021 June 02 | [Gentle introduction on PacBio Hifi](https://youtu.be/1aqnLQ-nwYk)
 
 MCScan code
