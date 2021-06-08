@@ -4,7 +4,7 @@
 [genomics lite A new programme of live webinars for upper secondary science students](https://publicengagement.wellcomeconnectingscience.org/genomics-lite)
 
 
-
+[Wellcome Connecting Science Public Engagement 	Youtube Channel](https://www.youtube.com/channel/UCUzZKO3uzq8PQBeJhLLDxQg/videos)
 
 
 
