@@ -1,5 +1,13 @@
 # bioinformatics101
 
+[QTL mapping analysis tutorial: By Jorge Valenzuela Antelo](https://youtu.be/4RF7LRggY44)
+
+
+
+
+
+
+
 
 [genomics lite A new programme of live webinars for upper secondary science students](https://publicengagement.wellcomeconnectingscience.org/genomics-lite)
 
