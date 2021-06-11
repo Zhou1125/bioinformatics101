@@ -1,5 +1,6 @@
 # bioinformatics101
 
+Theory of genomics selection | [Youtube Channel of Paulo izquierdo romero](https://www.youtube.com/channel/UCgbVs_9uQCEEtuU008nvgGA/videos) | [Hand on session](https://youtu.be/cdTfzjRH-Wo) | [Diagram de genomics breeding](https://youtu.be/y3Uy-x86odE?t=397)
 
 
 Today 11 June 2021, Just found by chance a nice youtube [video](https://youtu.be/p4NyOGX7CyM) on SNP_calling by AG2PI workshop. And I catched at this [time](https://youtu.be/p4NyOGX7CyM?t=1980), a github link for genome assembly annotation [SNP calling](https://github.com/bcbc-group/SNP_Calling/blob/master/snpcalling_pipeline_gatk_script_2018.sh) and so on. BTI Computational Biology Center made it. Available [here](https://github.com/bcbc-group). I was amazed by the annotation section of [2020](https://github.com/bcbc-group/Botany2020NMGWorkshop/tree/master/annotation) and [2021](https://github.com/bcbc-group/NMGWorkshop2021/tree/main/5.Annotation/scripts)
