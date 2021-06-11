@@ -1,11 +1,12 @@
 # bioinformatics101
 
 
+
 Today 11 June 2021, Just found by chance a nice youtube [video](https://youtu.be/p4NyOGX7CyM) on SNP_calling by AG2PI workshop. And I catched at this [time](https://youtu.be/p4NyOGX7CyM?t=1980), a github link for genome assembly annotation [SNP calling](https://github.com/bcbc-group/SNP_Calling/blob/master/snpcalling_pipeline_gatk_script_2018.sh) and so on. BTI Computational Biology Center made it. Available [here](https://github.com/bcbc-group). I was amazed by the annotation section of [2020](https://github.com/bcbc-group/Botany2020NMGWorkshop/tree/master/annotation) and [2021](https://github.com/bcbc-group/NMGWorkshop2021/tree/main/5.Annotation/scripts)
 
 Before setting a genome project, see what [to do](https://github.com/bcbc-group/NMGWorkshop2021/blob/main/3.ExperimentalDesign/Experimental_design.pdf)
 
-
+All codes are available on my [Zenodo](https://zenodo.org/record/4926203#.YMNUVr7itPY)
 
 DomainViz: intuitive visualization of consensus domain distributions across groups of proteins  | [Paper](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkab391/6281474?login=true) | [Site](https://uhrigprotools.biology.ualberta.ca/domainviz)
 
