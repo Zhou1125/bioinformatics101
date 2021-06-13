@@ -4,7 +4,7 @@ Rgarde comment Eche a fait pour son PacBio
 
 
 
-[Poster](https://github.com/Yedomon/bioinformatics101/blob/main/Eche.png) | SMRT Leiden 2021 | Eche
+![Poster](https://github.com/Yedomon/bioinformatics101/blob/main/Eche.png) | SMRT Leiden 2021 | Eche
 
 
 
