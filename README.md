@@ -1,5 +1,18 @@
 # bioinformatics101
 
+Rgarde comment Eche a fait pour son PacBio
+
+
+
+[Poster]() | SMRT Leiden 2021 | Eche
+
+
+
+
+
+
+
+
 Theory of genomics selection | [Youtube Channel of Paulo izquierdo romero](https://www.youtube.com/channel/UCgbVs_9uQCEEtuU008nvgGA/videos) | [Hand on session](https://youtu.be/cdTfzjRH-Wo) | [Diagram de genomics breeding](https://youtu.be/y3Uy-x86odE?t=397)
 
 
