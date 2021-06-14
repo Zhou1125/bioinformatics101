@@ -7,7 +7,7 @@ Valerie Murigneux a publie un  truc encore juste avec hifi... Tres drole...
 [Le papier](https://gigabytejournal.com/articles/24) | [Le code pour IPA assembly](https://www.protocols.io/view/ipa-assembly-for-pacbio-hifi-reads-buxvnxn6)
 
 
-![img]()
+![img](https://github.com/Yedomon/bioinformatics101/blob/main/Capture.PNG)
 
 
 Rgarde comment Eche a fait pour son PacBio
