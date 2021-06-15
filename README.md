@@ -1,5 +1,14 @@
 # bioinformatics101
 
+## ELIXIR FONDUE Datathon | Day 1 Tuesday June 15th 2021
+
+Sebastian Beier Plant Leader for Elixir plant scientific community | Contact le pour une aide 
+
+MIAPPE 
+
+
+
+
 
 Valerie Murigneux a publie un  truc encore juste avec hifi... Tres drole...
 
