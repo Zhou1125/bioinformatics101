@@ -6,8 +6,7 @@ Sebastian Beier Plant Leader for Elixir plant scientific community | Contact le 
 
 MIAPPE 
 
-
-
+https://www.denbi.de/training-courses-2021
 
 
 Valerie Murigneux a publie un  truc encore juste avec hifi... Tres drole...
