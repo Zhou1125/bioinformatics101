@@ -1,0 +1,165 @@
+####Step 1: QC
+
+#---Quality control---FastQC v0.11.2
+
+cd /NABIC/HOME/yedomon1/bae/02.transcriptomics/data
+mkdir qc1
+fastqc -o qc1 -t 96 *.fastq.gz &> log.qc1 &
+
+
+#---Adapter trimming----fastp-0.20.1
+
+
+vi adap.sh
+
+
+#!/bin/bash
+
+cd ~/bae/02.transcriptomics/data
+
+
+source activate qc
+
+
+for reads1 in *.gz
+
+do
+
+base=$(basename $reads1 _1.fastq.gz)
+
+fastp --detect_adapter_for_pe \
+       --overrepresentation_analysis \
+       --correction --cut_right --thread 2 \
+       --html adap/${base}.fastp.html --json adap/${base}.fastp.json \
+       -i ${base}_1.fastq.gz -I ${base}_2.fastq.gz \
+       -o adap/${base}_1.fastq.gz -O adap/${base}_2.fastq.gz 
+
+done
+
+source deactivate qc
+
+
+
+$bash adap.sh &> log.adap &
+
+
+#---Quality control---multiqc-1.9
+
+cd ~/bae/02.transcriptomics/data
+
+
+source activate qc
+
+multiqc qc1 adap
+
+source deactivate qc
+
+####Step 2: Mapping
+
+cd /NABIC/HOME/yedomon1/bae/02.transcriptomics/02.mapping
+
+vi run_hisat2.sh
+
+
+#!/bin/bash
+
+set -e
+
+source activate hisat2
+
+#--Variables declaration
+genome_fasta=/NABIC/HOME/yedomon1/bae/02.transcriptomics/00.data/perilla_v1.genome.fasta
+genome=perilla_v1.genome
+p=96
+outdir="/NABIC/HOME/yedomon1/bae/02.transcriptomics/02.mapping"
+trimmed_data_dir="/NABIC/HOME/yedomon1/bae/02.transcriptomics/00.data"
+
+#--Index the genome
+
+source activate hisat2
+
+hisat2-build ${genome_fasta} ${genome}
+
+
+#--Mapping
+
+for reads in ${trimmed_data_dir}/*.fastq.gz
+
+do
+
+base=$(basename $reads _1.fastq.gz)
+
+
+hisat2 \
+  -p ${p} \
+  -x ${genome} \
+  -1 ${trimmed_data_dir}/${base}_1.fastq.gz \
+  -2 ${trimmed_data_dir}/${base}_2.fastq.gz \
+  -S ${outdir}/${base}.sam &> ${base}.log
+
+done
+
+source deactivate hisat2
+
+#--Bam file
+
+source activate samtools_env
+
+for samfile in ${outdir}/*.sam
+
+do
+
+samtools view --threads ${p} -bS -o ${outdir}/${base}.bam ${outdir}/${base}.sam
+
+done
+
+source deactivate samtools_env
+
+$ bash run_hisat2.sh &> log &
+
+
+####Step 3: Abudence estimation--featureCounts Version 2.0.1
+
+vi run_featurescounts.sh
+
+#!/bin/bash
+
+set -e
+
+source activate subread_env
+
+ANNOT_GFF=/NABIC/HOME/yedomon1/bae/02.transcriptomics/00.data/perilla_v1.0_cleaned.gff3
+
+BAM_DIR="/NABIC/HOME/yedomon1/bae/02.transcriptomics/02.mapping"
+
+COUNT_DIR="/NABIC/HOME/yedomon1/bae/02.transcriptomics/03.count"
+
+for bamfile in ${BAM_DIR}/*.bam
+
+do
+
+base=$(basename $bamfile .bam)
+
+featureCounts -T 96 -s 2 -p -t gene -g ID -o ${COUNT_DIR}/${base}.gene.counts.txt -a ${ANNOT_GFF} ${BAM_DIR}/${base}.bam
+
+done
+
+source deactivate subread_env
+
+
+
+### Combine all in one
+
+paste <(awk 'BEGIN {OFS="\t"} {print $1,$7}' bud_r1.gene.counts.txt) \
+  <(awk 'BEGIN {OFS="\t"} {print $7}' bud_r2.gene.counts.txt) \
+  <(awk 'BEGIN {OFS="\t"} {print $7}' bud_r3.gene.counts.txt) \
+  <(awk 'BEGIN {OFS="\t"} {print $7}' leaf_r1.gene.counts.txt) \
+  <(awk 'BEGIN {OFS="\t"} {print $7}' leaf_r2.gene.counts.txt) \
+ <(awk 'BEGIN {OFS="\t"} {print $7}' leaf_r3.gene.counts.txt) \
+ <(awk 'BEGIN {OFS="\t"} {print $7}' seed_r1.gene.counts.txt) \
+ <(awk 'BEGIN {OFS="\t"} {print $7}' seed_r2.gene.counts.txt) \
+  <(awk 'BEGIN {OFS="\t"} {print $7}' seed_r3.gene.counts.txt)  | \
+  grep -v '^\#' > perilla_citriodora_count.txt
+
+
+###--So let us go into R for DEG analysis
