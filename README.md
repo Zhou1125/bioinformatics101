@@ -2,7 +2,7 @@
 
 
 
-# How to extract all non-seqenced positions from a genome (Fasta file)?
+# How to extract all N positions from a genome (Fasta file)?
 
 ## Brainstorming
 
