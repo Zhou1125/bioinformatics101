@@ -1,6 +1,13 @@
 # bioinformatics101
 
 
+Day 2 of EI Long read RNA synposium
+
+I saw their [github page](https://github.com/EI-CoreBioinformatics) . Awesome discovery about genome annotation. The genome annotation workshop link is [here](https://github.com/EI-CoreBioinformatics/annotation-workshop-2021). And I discovered a new annotation tool called Robust Eukaryotic Annotation Toolki (REAT) [HERE](https://github.com/EI-CoreBioinformatics/reat)
+
+
+
+
 
 # How to extract all N positions from a genome (Fasta file)?
 
