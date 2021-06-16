@@ -1,5 +1,99 @@
 # bioinformatics101
 
+My Indian friend Prabba encountered a problem regarding windows size and step size. How to automated it the process?
+
+
+I have got an answer her in biostar
+
+
+and more resource in bedtools page
+
+
+In summary to do it easy, first make the file A chromosome by chromosome with your wanted windows size
+
+
+the prepare the file B like this
+
+
+then run bedtools to get the results
+
+Solution 2 is to use samtools faidx to index, sort it then use this command line
+
+
+```bash
+
+# 01. make the index file for the genome file
+
+samtools faidx genome.fa
+
+# 02. Explore fasta index file
+less genome.fa.fai
+
+# 03. Make 1Mb sliding windows (step 200kb)
+bedtools makewindows \
+-g <( grep '^X' genome.fa.fai ) \
+-w 1000000 \
+-s 200000 \
+-i winnum \
+> windows_1mb.bed
+
+# 04. Obtain densities of genes within individual windows
+bedtools coverage \
+-a <( sortBed -i Ensembl.NCBIM37.67.bed ) \
+-b windows_1mb.bed \
+> gdens_windows_1mb.tab
+
+
+```
+
+This solution from [here](https://ngs-course.readthedocs.io/en/praha-january-2016/07-gtools.html)
+
+
+The simplest way as I mentionned above is like this
+
+
+```bash
+
+$ cat A.bed
+chr1  0   100
+chr1  100 200
+chr2  0   100
+
+$ cat B.bed
+chr1  10  20
+chr1  20  30
+chr1  30  40
+chr1  100 200
+
+$ bedtools coverage -a A.bed -b B.bed
+chr1  0   100  3  30  100 0.3000000
+chr1  100 200  1  100 100 1.0000000
+chr2  0   100  0  0   100 0.0000000
+
+
+```
+
+
+
+
+the file A is the chromosome already set with a window size (here 100 bp). Then prepare based of the gf file the file B of your gene of interest by providing chromosome ID start and end. Then use the command
+
+
+```bash
+
+bedtools coverage -a A.bed -b B.bed
+
+```
+
+
+The third column give the gene density.  This data can be used later to make a plot in R.
+
+
+A very nice explanation of the concept of window size and step size is this [biostar page](https://www.biostars.org/p/418244/)
+
+
+
+
 I found SciLifelab old workshop in 2018 for [annotation](https://github.com/SciLifeLab/courses/tree/gh-pages/annotation/2018/practical_session). [RNASEQ](https://github.com/SciLifeLab/courses/tree/gh-pages/rnaseq/labs) also. [GSA](https://github.com/SciLifeLab/courses/blob/gh-pages/rnaseq/labs/GSA_tutorial.md)
 
 
