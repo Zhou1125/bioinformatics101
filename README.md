@@ -1,6 +1,6 @@
 # bioinformatics101
 
-I found SciLifelab old workshop in 2018 for [annotation](https://github.com/SciLifeLab/courses/tree/gh-pages/annotation/2018/practical_session). 
+I found SciLifelab old workshop in 2018 for [annotation](https://github.com/SciLifeLab/courses/tree/gh-pages/annotation/2018/practical_session). [RNASEQ](https://github.com/SciLifeLab/courses/tree/gh-pages/rnaseq/labs) also. [GSA](https://github.com/SciLifeLab/courses/blob/gh-pages/rnaseq/labs/GSA_tutorial.md)
 
 
 
