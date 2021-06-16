@@ -1,5 +1,8 @@
 # bioinformatics101
 
+I found SciLifelab old workshop in 2018 for [annotation](https://github.com/SciLifeLab/courses/tree/gh-pages/annotation/2018/practical_session). 
+
+
 
 Day 2 of EI Long read RNA synposium
 
