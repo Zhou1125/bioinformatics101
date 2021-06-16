@@ -22,10 +22,10 @@ AAAANNNNNGCT
 
 ```
 
-My toy has just two chromosmes. the first one has N from 4 to 8 and the second one from 5 to 9 ( **0-based-cordinate**)
+My toy has just two chromosmes. The first one has N from 4 to 8 and the second one from 5 to 9 ( **1-based coordinate**)
 
 
-My task is to know the position of those gaps in each sequence. It is important for me to know the gaps' positions precisely in my Hi-C based assembly that I have received from Dovetails genomics.
+My initial task for my whole genome project is to know the position of those gaps in each sequence. It is important for me to know the gaps' positions precisely in my Hi-C based assembly that I have received from [Dovetails genomics](https://dovetailgenomics.com/) company.
 
 Knowing those gaps will help me to design appropriate markers, test them using PCR method and fill the gaps accordingly. So how can I get the exact position of my gaps?
 
@@ -103,7 +103,7 @@ NNNNN
 ```
 
 Note: Zero-based and one-based coordinate need to be considered for downstream analysis. 
-To get more info about zero and one-based coordinate, please refer to bedtools page [here](bedtools.readthedocs.io/en/latest/overview.html). 
+To get more info about zero and one-based coordinate, please refer to bedtools page [here](https://bedtools.readthedocs.io/en/latest/content/overview.html). 
 
  - *BED starts are zero-based and BED ends are one-based*.
  - **GFF starts and ends are one-based.**
