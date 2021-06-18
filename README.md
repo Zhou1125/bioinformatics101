@@ -1,5 +1,10 @@
 # bioinformatics101
 
+
+
+[HPC@LSU invites you to attend our weekly training scheduled every Wednesdays, except university holidays.](http://www.hpc.lsu.edu/training/tutorials.php)
+
+
 My Indian friend Prabba encountered a problem regarding windows size and step size. How to automated it the process?
 
 
