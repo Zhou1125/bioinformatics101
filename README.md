@@ -2,6 +2,45 @@
 
 
 
+
+## Blast running for syntheny analysis
+
+
+
+```bash
+
+#!/bin/bash
+
+set -e
+
+source activate diamond_env # Activate diamond conda environment
+
+# Step 0: Make database for each species
+
+for prot in *.fasta
+
+	do  
+		base=$(basename $prot .fasta)
+		
+		diamond makedb --in ${base}.fasta  -p 64 -d ${base}.db
+	done
+
+# Step 1: Perform the blast 
+
+for db in *.db
+
+	do
+		base=$(basename $db .db)
+		diamond blastp -d ${base}.db -q at.fasta -p 64 --evalue 0.00001 --out at_vs_${base}.csv --outfmt 6
+		diamond blastp -d ${base}.db -q sl.fasta -p 64 --evalue 0.00001 --out sl_vs_${base}.csv --outfmt 6
+		diamond blastp -d ${base}.db -q pc.fasta -p 64 --evalue 0.00001 --out pc_vs_${base}.csv --outfmt 6
+		diamond blastp -d ${base}.db -q si.fasta -p 64 --evalue 0.00001 --out si_vs_${base}.csv --outfmt 6
+		diamond blastp -d ${base}.db -q mg.fasta -p 64 --evalue 0.00001 --out mg_vs_${base}.csv --outfmt 6
+	done
+	
+```
+
+
 [HPC@LSU invites you to attend our weekly training scheduled every Wednesdays, except university holidays.](http://www.hpc.lsu.edu/training/tutorials.php)
 
 
