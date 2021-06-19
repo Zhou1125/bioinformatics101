@@ -7,6 +7,10 @@ The bible of bioinformatic [online](https://bioinformaticsworkbook.org/dataAnaly
 How to [scaffold](https://bioinformaticsworkbook.org/dataAnalysis/GenomeAssembly/Hybrid/Juicer_Juicebox_3dDNA_pipeline#gsc.tab=0)
 
 
+
+[Sebastian Schmeier](https://www.sschmeier.com/index.html) |  Massey University | My ideol in Bioinfo | Training | [Computational Genomics](https://genomics.sschmeier.com/) | [Reproducibility](https://reproducibility.sschmeier.com/) | 
+
+
 ## Blast running for syntheny analysis
 
 
