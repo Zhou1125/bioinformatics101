@@ -1,10 +1,10 @@
 # bioinformatics101
 
-The bible of bioinformatic online
+The bible of bioinformatic [online](https://bioinformaticsworkbook.org/dataAnalysis/GenomeAnnotation/annotation_and_assembly_index.html#gsc.tab=0)
 
 
 
-How to scaffold 
+How to [scaffold](https://bioinformaticsworkbook.org/dataAnalysis/GenomeAssembly/Hybrid/Juicer_Juicebox_3dDNA_pipeline#gsc.tab=0)
 
 
 ## Blast running for syntheny analysis
