@@ -1,6 +1,10 @@
 # bioinformatics101
 
+The bible of bioinformatic online
 
+
+
+How to scaffold 
 
 
 ## Blast running for syntheny analysis
