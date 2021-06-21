@@ -69,6 +69,38 @@ mg_vs_mg.csv mg_vs_at.csv mg_vs_sl.csv mg_vs_pc.csv mg_vs_si.csv > bae.blast
 
 
 
+Convert the csv format into a tabulate format before running mcscan. So do:
+
+
+```bash
+
+sed 's|,|\t|g' bae.gff.csv > bae.gff
+
+```
+
+
+
+
+Then run MCScanX
+
+
+I put bae.gff and bae.blast files in a directory called syn
+
+I move to the syn directory and then,
+
+
+```bash
+
+MCScanX bae
+
+```
+
+
+
+
+
+
+
 
 
 
