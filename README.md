@@ -49,6 +49,34 @@ for db in *.db.dmnd
 ```
 
 
+
+
+
+Then concatenate all blast results:
+
+
+```bash
+
+cat at_vs_at.csv at_vs_sl.csv at_vs_pc.csv at_vs_si.csv at_vs_mg.csv \
+sl_vs_sl.csv sl_vs_at.csv sl_vs_pc.csv sl_vs_si.csv sl_vs_mg.csv \
+pc_vs_pc.csv pc_vs_at.csv pc_vs_sl.csv pc_vs_si.csv pc_vs_mg.csv \
+si_vs_si.csv si_vs_at.csv si_vs_sl.csv si_vs_pc.csv si_vs_mg.csv \
+mg_vs_mg.csv mg_vs_at.csv mg_vs_sl.csv mg_vs_pc.csv mg_vs_si.csv > bae.blast
+
+                                   
+
+```
+
+
+
+
+
+
+
+
+
+
+
 [HPC@LSU invites you to attend our weekly training scheduled every Wednesdays, except university holidays.](http://www.hpc.lsu.edu/training/tutorials.php)
 
 
