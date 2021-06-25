@@ -52,6 +52,42 @@ for db in *.db.dmnd
 
 
 
+Then define a code for picking up only top 5 blastp based on bitscore
+
+
+
+```bash
+
+#!/bin/bash
+
+set -e
+
+
+# Remove duplicate and get gene list
+
+cat at_vs_at.csv | awk '{ print $1 }' | awk '!seen[$0]++' > out
+
+# Pick top 5 genes based on the value o the colum 2
+
+cat out | while read line
+do
+    grep "${line}" at_vs_at.csv | sort -r -n -k2 | head -n 5 > out.${line}
+done
+
+# End
+
+
+```
+
+Then 
+
+```bash
+
+cat out.prefix > at_vs_at_top5.csv
+
+```
+
+
 Then concatenate all blast results:
 
 
