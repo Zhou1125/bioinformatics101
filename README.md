@@ -152,7 +152,9 @@ Quelque refs
 
 
 
+[A chromosome-level genome assembly of the woolly apple aphid, Eriosoma lanigerum Hausmann (Hemiptera: Aphididae)](https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.13258)
 
+> Syntenic blocks of genes were identified between the chromosome-level genome assemblies of WAA, M. persicae, A. pisum and R. maidis (see Table S3 for details of assembly and annotation versions used) using mcscanx version 1.1 (Wang et al., 2012). For each comparison, we carried out an all versus all blast search of annotated protein sequences using blastall version 2.2.22 (Altschul et al., 1990) with the options “-p blastp - e 1e-10 -b 5 -v 5 -m 8” and ran mcscanx with the parameters “-s 5 -b 2,” requiring synteny blocks to contain at least five consecutive genes and to have a gap of no more than 25 genes. mcscanx results were visualized with synvisio (https://synvisio.github.io/#/).
 
 
 
