@@ -51,43 +51,6 @@ for db in *.db.dmnd
 
 
 
-
-Then define a code for picking up only top 5 blastp based on bitscore
-
-
-
-```bash
-
-#!/bin/bash
-
-set -e
-
-
-# Remove duplicate and get gene list
-
-cat at_vs_at.csv | awk '{ print $1 }' | awk '!seen[$0]++' > out
-
-# Pick top 5 genes based on the value o the colum 2
-
-cat out | while read line
-do
-    grep "${line}" at_vs_at.csv | sort -r -n -k2 | head -n 5 > out.${line}
-done
-
-# End
-
-
-```
-
-Then 
-
-```bash
-
-cat out.prefix > at_vs_at_top5.csv
-
-```
-
-
 Then concatenate all blast results:
 
 
@@ -105,7 +68,51 @@ mg_vs_mg.csv mg_vs_at.csv mg_vs_sl.csv mg_vs_pc.csv mg_vs_si.csv > bae.blast
 
 
 
-Convert the csv format into a tabulate format before running mcscan. So do:
+
+Then pick up the top 5 hit based on bitscore
+
+
+
+
+
+Then define a code for picking up only top 5 blastp based on bitscore
+
+
+
+```bash
+
+#!/bin/bash
+
+set -e
+
+
+# Remove duplicate and get gene list
+
+cat bae.blast | awk '{ print $1 }' | awk '!seen[$0]++' > uniq
+
+# Pick top 5 genes based on the value o the colum 2
+
+cat uniq | while read line
+do
+    grep "${line}" bae.blast | sort -r -n -k2 | head -n 5 > bae_out.${line}
+done
+
+
+# Concatenate all 
+
+
+cat bae_out* > bae_top5.blast
+
+
+# End
+
+
+```
+
+
+
+
+Convert the csv format of the prepared simplified gff into a tabulate format before running mcscan. So do:
 
 
 ```bash
