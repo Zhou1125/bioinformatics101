@@ -132,7 +132,23 @@ MCScanX bae
 ```
 
 
+To visualize goto https://synvisio.github.io/ . An other option is https://accusyn.usask.ca/ and https://plantinformatics.io/
 
+
+Quelque refs
+
+
+
+
+[Multiple wheat genomes reveal global variation in modern breeding](https://www.nature.com/articles/s41586-020-2961-x)
+
+> Pairwise BLASTn comparisons of the genes were also used to identify structural variants, and were uploaded into AccuSyn (https://accusyn.usask.ca/) and SynVisio (https://synvisio.github.io/#/) to create a wheat-specific database (https://kiranbandi.github.io/10wheatgenomes/). Pretzel (https://github.com/plantinformatics/pretzel) was also used to visualize and compare the RQA and the projected gene annotations (http://10wheatgenomes.plantinformatics.io/).
+
+
+[Genome assembly of Chiococca alba uncovers key enzymes involved in the biosynthesis of unusual terpenoids ](https://academic.oup.com/dnaresearch/article/27/3/dsaa013/5869045?login=true)
+
+
+> To identify homologous genes for synteny analysis, BLASTP (BLAST+ v2.6.0)42 was run using the longest peptide isoform for each gene, comparing C. alba to itself, Coffea canephora to itself and C. alba versus C. canephora in both directions. BLAST hits were filtered for E-value ≤ 1e-5 and only the top five hits (based on bit score) for each query sequence were retained. These BLAST results were used to identify syntenic blocks using MCScanX v2017032255 with default parameters and visualized using SynVisio (https://synvisio.github.io). 
 
 
 
