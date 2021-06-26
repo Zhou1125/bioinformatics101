@@ -1,5 +1,10 @@
 # bioinformatics101
 
+
+New genome annotation tools FINDER | [github](https://github.com/sagnikbanerjee15/Finder) | [Paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04120-9) 
+
+
+
 The bible of bioinformatic [online](https://bioinformaticsworkbook.org/dataAnalysis/GenomeAnnotation/annotation_and_assembly_index.html#gsc.tab=0)
 
 
