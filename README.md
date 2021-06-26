@@ -1,6 +1,9 @@
 # bioinformatics101
 
 
+I found the [Korean Post Genome Project output website](http://kpgp.or.kr/bbs/board.php?bo_table=result&page=2)
+
+
 
 Awesome tutorial on [AG2PI Workshop #4 - A Practical Guide to Genome-Wide Association Studies (GWAS)](https://youtu.be/nrbgly0Bcv8) | [code github](https://github.com/zhzheng92/AG2PI_GWAS_workshop_June2021)
  
