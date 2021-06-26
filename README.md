@@ -1,6 +1,14 @@
 # bioinformatics101
 
 
+
+Awesome tutorial on [AG2PI Workshop #4 - A Practical Guide to Genome-Wide Association Studies (GWAS)](https://youtu.be/nrbgly0Bcv8) | [code github](https://github.com/zhzheng92/AG2PI_GWAS_workshop_June2021)
+ 
+
+
+
+
+
 New genome annotation tools FINDER | [github](https://github.com/sagnikbanerjee15/Finder) | [Paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04120-9) 
 
 
