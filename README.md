@@ -1,6 +1,16 @@
 # bioinformatics101
 
 
+
+
+Excellent [youtube channel](https://youtu.be/cp3yIARAyEI) resource for GWAS
+
+
+
+
+
+
+
 I found the [Korean Post Genome Project output website](http://kpgp.or.kr/bbs/board.php?bo_table=result&page=2)
 
 
