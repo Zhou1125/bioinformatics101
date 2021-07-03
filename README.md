@@ -1,5 +1,24 @@
 # bioinformatics101
 
+Just found on twitter an R shiny tool for plant genome annotation...faster...low requirement 8GB RAM and 64 CPU ..on mac and linux... This is...[Hayai-Annotation Plants](https://academic.oup.com/bioinformatics/article/35/21/4427/5489908?login=true#.XcDhT9RUIp0.twitter). [github](https://github.com/kdri-genomics/Hayai-Annotation-Plants) | [wiki](https://github.com/kdri-genomics/Hayai-Annotation-Plants/wiki) | [tutorial](https://github.com/kdri-genomics/Hayai-Annotation-Plants/blob/08d58c3f2758b9fda4da00377087a92c9ef4317e/Hayai-Annotation%20Plants%20Tutorial.pdf)
+
+![img](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bioinformatics/35/21/10.1093_bioinformatics_btz380/1/btz380f1.jpeg?Expires=1628319577&Signature=yvyVLQJS9S3RB40JaTa6N3E9SABiFEQkR-ywBwHZ8Kf7tcPsMZfcVqbix1pciGpxsoWBD6Ex34pUmEpGup5gNJYEy2rhoT-dKnW8n12F2HV0M4ZjTc7UIpY3rfYzLw5xel~f6ZbR2U2feB~N-V9kk9r2nIq3a5rvAi-zBdo2H-xxerOvOgixBd7TpOUjcmZCyrtk-ao5nvuqMx1jIcNQM47eaPvPsXgMAzybe8z~u923~1HTOWGddD0tXLxs99R0lzTGsdfIumDYmBABU1EjQ9vNnQs1WmS8i4i11xABq9ocsTZQGOY8CajlB24xdTNU1nzp88UuCqzSBvUW1zVAsQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
