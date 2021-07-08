@@ -1,5 +1,39 @@
 # bioinformatics101
 
+Standards: Earth BioGenome Project (EBP)
+
+
+https://www.earthbiogenome.org/sample-collection-processing-standards
+
+https://www.earthbiogenome.org/assembly-standards
+
+https://www.earthbiogenome.org/annotation
+
+https://www.earthbiogenome.org/analysis-standards-report
+
+https://www.earthbiogenome.org/it-and-informatics-standards
+
+https://www.earthbiogenome.org/subcommittee-ethical-legal-social
+
+https://www.earthbiogenome.org/diversity-equity-inclusion-and-justice-committee
+
+https://www.earthbiogenome.org/subcommittee-communications-public-affairs
+
+https://www.earthbiogenome.org/analysis-standards-report
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
