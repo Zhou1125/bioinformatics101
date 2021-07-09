@@ -1,5 +1,17 @@
 # bioinformatics101
 
+[Gene Ontology Meta Annotator for Plants (GOMAP)](https://plantmethods.biomedcentral.com/articles/10.1186/s13007-021-00754-1#Fig5) | [Running GoMap](https://bioinformapping.com/gomap/master/RUNNING.html)
+
+
+
+
+
+
+
+
+
+
+
 Standards: Earth BioGenome Project (EBP)
 
 
