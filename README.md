@@ -61,7 +61,7 @@ pfam_scan.pl -fasta my.protein.sequences -cpu 32 -outfile outputname.txt - as -d
 ```
 
 
-That is it!
+That is it! Please check [Olga gis.github](https://gist.github.com/olgabot/f65365842e27d2487ad3) for manual installation and run
 
 
 
