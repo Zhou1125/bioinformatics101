@@ -1,5 +1,122 @@
 # bioinformatics101
 
+##Genomes and Plant Health 2021 | Workshop for undergraduate research students, July 6th-7th | UC Berkeley (virtual)
+
+
+
+July 6th: Genomics and Bioinformatics 
+
+0. Introductions
+
+The site we used for group brain think is: www.mentimeter.com 
+Here are results of what “Plant Health” means to us as a group: [link](https://benchling.com/krasileva/f/lib_YvYAlu8K-hvnlrs/etr_FX8JreiY-d7-crisprcas9-enrichment-sequencing-on-nanopore-at5g4373040/edit)
+
+1. Decoding genomes: DNA extraction, sequencing technologies, genome databases
+Prof Ksenia Krasileva and China Lunde Shaw
+
+Lecture and tutorial: [link](https://docs.google.com/document/d/1Dq8Z9OCrv0bk4sNEePueMS4BDZhA9zyU/edit)
+DNA extraction and loading MinION demo: [link](https://drive.google.com/file/d/1aIZImTIWAIAa1nmXalFIOQFq7ThK8FGE/view?usp=sharing)
+
+Resources:
+Phytozome database: https://phytozome.jgi.doe.gov/pz/portal.html 
+Ensembl Plants database: https://plants.ensembl.org
+
+
+2. Genome assembly, annotation, and the ins and outs of computational biology 
+Pierre Joubert and Boyan Xu
+
+ Lecture and coding exercises: [link](https://drive.google.com/drive/folders/1oNYLAhAQ7EsugxOCgAQj16OC4hQyM5l3?usp=sharing)
+ 
+ 3. From genes to proteins: protein domain architectures and families, structures 
+Dr Daniil Prigozhin
+
+Lecture: [link](https://drive.google.com/file/d/1UBIDCPLXV0gO5ea6q9zPqB1XGnMOeqrP/view?usp=sharing) 
+Exercises: [link](https://docs.google.com/document/d/1de8vx9OB3X46aJMCsjfiGgBaBVw80i4BEHEwVBY0e2I/edit)
+
+Resources:
+UCSF Chimera: https://www.cgl.ucsf.edu/chimera/ 
+
+
+
+July 7th: Applications to Plant Health 
+
+4. Genome editing 
+Dr Michael Gomez and Prof Ksenia Krasileva
+
+Lecture and tutorial: [link](https://drive.google.com/file/d/1msnNFrx1rvWw1gpZM69pNJ2Q7r97RThw/view?usp=sharing)
+
+Resources:
+CRISPR 2.0: http://crispr.hzau.edu.cn/CRISPR2/  
+
+5. Good microbes, bad microbes: plant microbiomes
+Reena Debray with tech support by Pierre Joubert 
+
+Lecture and coding exercise: [link](https://drive.google.com/drive/folders/16q_PfDH5E31Gcm3aEG5Vz8_L16rxmkDp?usp=sharing)
+
+6. Panel career discussion
+
+UC Berkeley Plant Biology graduate program: https://pmb.berkeley.edu/graduate-programs/plant-biology 
+
+UC Berkeley Microbiology graduate program:
+https://pmb.berkeley.edu/graduate-programs/microbial-biology 
+
+UC Berkeley Integrative Biology graduate program:
+https://ib.berkeley.edu/grad 
+
+UC Berkeley Center for Computational Biology graduate program:
+https://ccb.berkeley.edu/academics/phd-in-computational-biology/ 
+
+UC Berkeley Center for Computational Biology Designated Emphasis program:
+https://ccb.berkeley.edu/academics/designated-emphasis/
+
+LBNL undergraduate and graduate student internships:
+https://education.lbl.gov/internships/ 
+
+Norwich Research Park Graduate Program:
+https://biodtp.norwichresearchpark.ac.uk 
+
+7. A Computational Biologist Toolkit
+
+Google Colab: [link](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index)
+BASH programming how to: [link](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+What is R?: [link](https://www.r-project.org/about.html)
+Python for beginners: [link](https://www.python.org/about/gettingstarted/)
+Snakemake workflows: [link](https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html)
+Github (version control code management): [link](https://guides.github.com/activities/hello-world/)
+Zenodo (storage and distribution of data analyses with DOI): [link](https://zenodo.org/communities/)   
+
+ 
+Our contact information
+Prof Ksenia Krasileva, Email: kseniak@berkeley.edu   Twitter: @kseniakrasileva
+China Lunde Shaw,  Email: lundec@berkeley.edu Twitter: @SciChi007
+Pierre Joubert, Email: pierrj@berkeley.edu  Twitter: @pmjoubert
+Boyan Xu, Email: boxu@berkeley.edu 
+Dr Michael Gomez, Email: michaelgr@berkeley.edu  Twitter: @MichaelGzRs
+Reena Debray, Email: rrdebray@berkeley.edu  Twitter: @DebrayReena
+Dr Daniil Prigozhin, Email: daniilprigozhin@lbl.gov  Twitter: @daniilprigozhin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Pfam_scan
 
 
