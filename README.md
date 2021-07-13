@@ -1,5 +1,78 @@
 # bioinformatics101
 
+# Pfam_scan
+
+
+
+## Install using bioconda
+
+
+```python
+
+conda create --name pfam_scan_env
+
+source activate pfam_scan_env
+
+
+conda install -c bioconda pfam_scan
+
+
+```
+
+
+
+## Download Pfam-A.hmm.gz, Pfam-B.hmm.gz, Pfam-A.hmm.dat.gz,  Pfam-B.hmm.dat.gz, active_site.dat.gz
+
+
+
+To find and download those files, do:
+
+- wget http://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam27.0/Pfam-B.hmm.gz for Pfam-B.hmm
+- wget http://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam27.0/Pfam-B.hmm.dat.gz for Pfam-B.hmm.dat
+- wget http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz for Pfam-B.hmm
+- wget http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.dat.gz for Pfam-B.hmm.dat
+- wget http://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam33.1/active_site.dat.gz for active_site.dat
+
+
+of course, need to unzip thoses file before usage by doing `gunzip file.gz`
+
+
+## Prerepare the file by doing
+
+
+
+```python
+
+hmmpress Pfam-A.hmm
+hmmpress Pfam-B.hmm
+
+```
+
+
+
+## Then run
+
+
+```python
+
+pfam_scan.pl -fasta my.protein.sequences -cpu 32 -outfile outputname.txt - as -dir fullpathtopfamdatathatwedownloaded 
+
+
+```
+
+
+That is it!
+
+
+
+
+
+
+
+
+
+
+
 [Gene Ontology Meta Annotator for Plants (GOMAP)](https://plantmethods.biomedcentral.com/articles/10.1186/s13007-021-00754-1#Fig5) | [Running GoMap](https://bioinformapping.com/gomap/master/RUNNING.html)
 
 
