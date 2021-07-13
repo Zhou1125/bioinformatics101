@@ -1,5 +1,19 @@
 # bioinformatics101
 
+
+
+
+https://github.com/boxu855/GPHbioinformatics
+
+https://github.com/eliza-m
+
+
+
+
+
+
+
+
 ##Genomes and Plant Health 2021 | Workshop for undergraduate research students, July 6th-7th | UC Berkeley (virtual)
 
 
