@@ -1,5 +1,28 @@
 # bioinformatics101
 
+
+
+[Benchmarking code](https://github.com/genomeassembler/benchmarking-study)
+
+
+Need Help?
+
+If you want to get in contact about something one-on-one, please contact Dean at dean.c.southwood@gmail.com.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 corvid SV popgen
 
 
