@@ -2,6 +2,38 @@
 
 
 
+
+
+
+## looping using lines of a file
+
+
+
+See [here](https://codefather.tech/blog/bash-loop-through-lines-file/)
+
+
+```python
+
+
+FILENAME="european-cities.txt" # step 1
+
+
+LINES=$(cat $FILENAME) # step 2
+
+
+for LINE in $LINES
+do
+    echo "$LINE"
+done # step3
+
+
+```
+
+
+
+
+
+
 [Benchmarking code](https://github.com/genomeassembler/benchmarking-study)
 
 
