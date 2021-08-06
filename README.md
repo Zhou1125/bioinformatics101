@@ -2,7 +2,7 @@
 
 
 
-
+[cnp calling gatk](https://qcb.ucla.edu/wp-content/uploads/sites/14/2016/03/GATK_Discovery_Tutorial-Worksheet-AUS2016.pdf)
 
 
 ## looping using lines of a file
