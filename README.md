@@ -1,8 +1,16 @@
 # bioinformatics101
 
 
+2021 -  [OVarFlow: a resource optimized GATK 4 based Open source Variant calling workFlow](https://www.biorxiv.org/content/10.1101/2021.05.12.443585v1.full)
 
-[cnp calling gatk](https://qcb.ucla.edu/wp-content/uploads/sites/14/2016/03/GATK_Discovery_Tutorial-Worksheet-AUS2016.pdf)
+
+[gitlab](https://gitlab.com/computational-biology/ovarflow)  | [docker](https://hub.docker.com/r/ovarflow/release/tags?page=1&ordering=last_updated) | [singularity](https://zenodo.org/record/4746639#.YQy7Tz_iuUk)
+
+
+[snp calling gatk 1](https://qcb.ucla.edu/wp-content/uploads/sites/14/2016/03/GATK_Discovery_Tutorial-Worksheet-AUS2016.pdf)
+
+
+[snp calling gatk 2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4243306/pdf/nihms531590.pdf)
 
 
 ## looping using lines of a file
