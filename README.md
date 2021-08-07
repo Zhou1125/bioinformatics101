@@ -1,6 +1,38 @@
 # bioinformatics101
 
 
+great summary of Young investisor SMRT very helpfull
+
+
+[summary](https://www.pacb.com/blog/young-investigators-share-stellar-science-career-advice-and-bioinformatics-tools-at-smrt-leiden-2021/)
+
+
+Key notes
+> Hubert Pausch of ETH Zürich discussed the downfalls of reference-guided variant discovery and the benefits of genome graphs to overcome some of the biases of linear mapping.
+
+So reference-based assembly also not so good.... need to make a pangenome graph
+
+
+> “PacBio long-read sequencing is ushering in a new era in human genomics.” — Tychele Turner, PhD., Washington University Genetics
+
+
+> Choose your mentor over your scientific subject. Learning the craft and being the best scientist you can be is most important, and can then be applied to the subject you love. Also, don’t stymy your creativity. Practice it. Try to have one new idea every day—it doesn’t even matter if it involves science. — Jonas Korlach, PacBio CSO
+
+
+> Drive yourself. Don’t compare yourself to anyone else. Don’t rely on anyone else to set expectations and hold yourself accountable. Remove the word ‘should’ from your career vocabulary. — Melissa Smith
+
+> Be open to trying something new. And don’t be cowed by others’ successes. They’ve encountered challenges too. — Tychele Turner, PhD., Washington University Genetics
+> On being open to revision and excited by the chance to iterate:
+
+Be happy if you see your papers returned covered in red (edits) – it means your supervisor cares. Don’t be frustrated. Take their advice and use it to improve. — Hubert Pausch, Prof. Dr., ETH Zurich
+
+And, last but not least – on passion:
+
+You can still make great contributions to science outside of academia. Even extracurricular activities like roller derby can teach you key soft skills like leadership and organization. Pursue all your passions. — Sarah Kingan, Senior Product Manager at PacBio
+
+And, don’t forget to leave the lab every once in a while.
+
+
 2021 -  [OVarFlow: a resource optimized GATK 4 based Open source Variant calling workFlow](https://www.biorxiv.org/content/10.1101/2021.05.12.443585v1.full)
 
 
