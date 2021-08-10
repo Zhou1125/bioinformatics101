@@ -1,6 +1,8 @@
 # bioinformatics101
 
 
+[Fifteen quick tips for success with HPC, i.e., responsibly BASHing that Linux cluster](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009207)
+
 great summary of Young investisor SMRT very helpfull
 
 
