@@ -1,6 +1,14 @@
 # bioinformatics101
 
 
+
+
+[picard remove duplication](https://gatk.broadinstitute.org/hc/en-us/articles/360037052812-MarkDuplicates-Picard-)
+
+
+[picard remove duplication in Korean](http://www.incodom.kr/PICARD/MarkDuplicates)
+
+
 [Fifteen quick tips for success with HPC, i.e., responsibly BASHing that Linux cluster](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009207)
 
 great summary of Young investisor SMRT very helpfull
