@@ -1,5 +1,11 @@
 # bioinformatics101
 
+[bcftools merge issue](https://github.com/samtools/bcftools/issues/668)
+
+
+
+
+
 
 
 
