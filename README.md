@@ -1,5 +1,16 @@
 # bioinformatics101
 
+
+
+[Transposable element diversity remains high in gigantic genomes](https://www.biorxiv.org/content/10.1101/2021.08.27.457980v1.full.pdf+html)
+
+[Comprehensive analysis of structural variants in breast cancer genomes using single-molecule sequencing](https://genome.cshlp.org/content/30/9/1258.full#sec-8)
+
+
+
+
+
+
 [bcftools merge issue](https://github.com/samtools/bcftools/issues/668)
 
 
