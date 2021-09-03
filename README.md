@@ -1,6 +1,11 @@
 # bioinformatics101
 
 
+[GENAVi: a shiny web application for gene expression normalization, analysis and visualization](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6073-7)
+
+![img](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12864-019-6073-7/MediaObjects/12864_2019_6073_Fig1_HTML.png?as=webp)
+
+
 
 [Transposable element diversity remains high in gigantic genomes](https://www.biorxiv.org/content/10.1101/2021.08.27.457980v1.full.pdf+html)
 
