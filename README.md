@@ -5,6 +5,8 @@
 
 [blockwise module](https://alexslemonade.github.io/refinebio-examples/04-advanced-topics/network-analysis_rnaseq_01_wgcna.html#47_Run_WGCNA)
 
+[amazon](https://rstudio-pubs-static.s3.amazonaws.com/687551_ed469310d8ea4652991a2e850b0018de.html)
+
 
 
 [GENAVi: a shiny web application for gene expression normalization, analysis and visualization](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6073-7)
