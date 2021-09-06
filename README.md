@@ -1,5 +1,11 @@
 # bioinformatics101
 
+[WGCNA Gene Correlation Network Analysis](https://bioinformaticsworkbook.org/dataAnalysis/RNA-Seq/RNA-SeqIntro/wgcna.html#gsc.tab=0)
+
+
+[blockwise module](https://alexslemonade.github.io/refinebio-examples/04-advanced-topics/network-analysis_rnaseq_01_wgcna.html#47_Run_WGCNA)
+
+
 
 [GENAVi: a shiny web application for gene expression normalization, analysis and visualization](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6073-7)
 
