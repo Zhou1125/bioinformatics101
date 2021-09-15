@@ -1,5 +1,18 @@
 # bioinformatics101
 
+
+## ParaAT
+
+```python
+
+/usr/bin/perl /NABIC/HOME/soyounwon/bin//ParaAT.pl -h RLK.pair.txt -n cds.renamed.fa -a Rgene.pep.renamed.fa -m muscle -g -kaks -f axt -p proc -o RLK
+KaKs_Calculator -i CWT00062306-CWT00062399.cds_aln.axt -o CWT00062306-CWT00062399.cds_aln.axt.kaks
+
+```
+
+
+
+
 [WGCNA Gene Correlation Network Analysis](https://bioinformaticsworkbook.org/dataAnalysis/RNA-Seq/RNA-SeqIntro/wgcna.html#gsc.tab=0)
 
 
