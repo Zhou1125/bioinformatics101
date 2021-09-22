@@ -1,6 +1,14 @@
 # bioinformatics101
 
 
+
+
+
+[Another new tutorial posted in the bioinformatics workbook: Eliminating contaminating reads to create a more contiguous genome assembly. Get that draft assembly nice, because nobody wants to scaffold a million little contigs.](https://bioinformaticsworkbook.org/dataAnalysis/GenomeAssembly/IteratingGenomeAssemblyWithReadFiltration.html#gsc.tab=0) 
+
+
+
+
 ## ParaAT
 
 ```python
