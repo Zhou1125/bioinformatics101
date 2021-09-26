@@ -1,6 +1,9 @@
 # bioinformatics101
 
+[Reproducible, scalable, and shareable analysis pipelines with bioinformatics workflow managers](https://www.nature.com/articles/s41592-021-01254-9.epdf?sharing_token=PVE8zdv0ymug_6OM4_QgKNRgN0jAjWel9jnR3ZoTv0OsA3GwSLYb6fNLyGpuUMTaYvo9Wdf90KP2BE13GkdM7BlFsIy03fWrZixiMpUSRJoIU1kqWIrPWKqMeI_kRIqWJMXbKlin7ZVPx4oXRGuohgq3SXFo76LILVPqk3Z1n3E%3D)
 
+
+[github](https://github.com/GoekeLab/bioinformatics-workflows)
 
 
 
