@@ -1,5 +1,19 @@
 # bioinformatics101
 
+[Genome-Wide Analysis of Terpene Synthase Gene Family in Mentha longifolia and Catalytic Activity Analysis of a Single Terpene Synthase](https://www.mdpi.com/2073-4425/12/4/518)
+
+
+> The gene structure of TPSs from M. longifolia was determined based on annotation information and then illustrated using Exon-Intron Graphic Maker (http://www.wormweb.org/exonintron). Subcellular localization of M. longifolia TPSs was predicted using the AtSubP tool (http://bioinfo3.noble.org/AtSubP/index.php) and ProtComp (http://linux1.softberry.com/berry.phtml?topic=protcomppl&group=programs&subgroup=proloc). The location of M. longifolia TPS genes on the scaffold was determined by Tbtools [35]. Tandemly duplicated genes were identified by their sequence similarity and scaffold localization according to earlier studies [36,37]. The conserved motifs of M. longifolia TPSs, including the RR(X)8W motif, NSE/DTE motif, RXR motif, and DDXXD motif, were identified based on the multiple sequence alignment results.
+
+
+
+
+
+
+
+
+
+
 [Reproducible, scalable, and shareable analysis pipelines with bioinformatics workflow managers](https://www.nature.com/articles/s41592-021-01254-9.epdf?sharing_token=PVE8zdv0ymug_6OM4_QgKNRgN0jAjWel9jnR3ZoTv0OsA3GwSLYb6fNLyGpuUMTaYvo9Wdf90KP2BE13GkdM7BlFsIy03fWrZixiMpUSRJoIU1kqWIrPWKqMeI_kRIqWJMXbKlin7ZVPx4oXRGuohgq3SXFo76LILVPqk3Z1n3E%3D)
 
 
