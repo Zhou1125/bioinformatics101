@@ -1,5 +1,11 @@
 # bioinformatics101
 
+
+
+[Webinar Recording Now Available – Bioinformatics Workflows for High Quality Genome Assembly in Plants and Animals]()
+
+
+
 [Genome-Wide Analysis of Terpene Synthase Gene Family in Mentha longifolia and Catalytic Activity Analysis of a Single Terpene Synthase](https://www.mdpi.com/2073-4425/12/4/518)
 
 
