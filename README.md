@@ -2,7 +2,7 @@
 
 
 
-[Webinar Recording Now Available – Bioinformatics Workflows for High Quality Genome Assembly in Plants and Animals]()
+[Webinar Recording Now Available – Bioinformatics Workflows for High Quality Genome Assembly in Plants and Animals](https://github.com/Yedomon/bioinformatics101/tree/main/Pacbio_Genome_Workflow)
 
 
 
