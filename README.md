@@ -2,7 +2,7 @@
 
 
 
-*Perilla is a young allotetraploid Lamiaceae species widely used in East Asia as herb and oil plant. Here, we report the high-quality, chromosome-scale genomes of the tetraploid (Perilla frutescens) and the AA diploid progenitor (Perilla citriodora). Comparative analyses suggest post Neolithic allotetraploidization within 10,000 years, and nucleotide mutation in tetraploid is 10% more than in diploid, both of which are dominated by G:C → A:T transitions. Incipient diploidization is characterized by balanced swaps of homeologous segments, and subsequent homeologous exchanges are enriched towards telomeres, with excess of replacements of AA genes by fractionated BB homeologs. Population analyses suggest that the crispa lines are close to the nascent tetraploid, and involvement of acyl-CoA: lysophosphatidylcholine acyltransferase gene for high α-linolenic acid content of seed oil is revealed by GWAS. These resources and findings provide insights into incipient diploidization and basis for breeding improvement of this medicinal plant.
+
 
 
 
