@@ -1,10 +1,10 @@
 # bioinformatics101
 
 
+[Atria: an ultra-fast and accurate trimmer for adapter and quality trimming](https://gigabytejournal.com/articles/31)
 
 
-
-
+![img](https://gigabytejournal.com/admin/apis/public/article_shell/uploads/article_files/Gigabyte/Gigabyte/2021/gigabyte31/gigabyte31-g001.jpg)
 
 
 
