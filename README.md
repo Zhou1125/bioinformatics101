@@ -1,6 +1,13 @@
 # bioinformatics101
 
 
+Alan E. Yocca [github](https://github.com/Aeyocca) | [ka_ks](https://github.com/Aeyocca/ka_ks_pipe) | [MCScanX](https://github.com/Aeyocca/MCScanX) | [Core_Prediction Pangenome](https://github.com/Aeyocca/Core_Prediction)
+
+
+
+
+
+
 [Atria: an ultra-fast and accurate trimmer for adapter and quality trimming](https://gigabytejournal.com/articles/31)
 
 
