@@ -1,6 +1,17 @@
 # bioinformatics101
 
 
+New long-reads mapper Vulcan
+
+
+
+[Vulcan: Improved long-read mapping and structural variant calling via dual-mode alignment](https://academic.oup.com/gigascience/article/10/9/giab063/6375129)
+
+
+
+
+
+
 Alan E. Yocca [github](https://github.com/Aeyocca) | [ka_ks](https://github.com/Aeyocca/ka_ks_pipe) | [MCScanX](https://github.com/Aeyocca/MCScanX) | [Core_Prediction Pangenome](https://github.com/Aeyocca/Core_Prediction)
 
 
