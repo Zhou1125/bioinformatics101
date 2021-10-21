@@ -2,6 +2,9 @@
 
 
 
+[2020 UCDAVIS Assembly workshop](https://ucdavis-bioinformatics-training.github.io/2020-Genome_Assembly_Workshop/kmers/QAQC)
+
+
 
 
 ANZ PacBio Bioinformatics Workshop Series - AGRF 2021
