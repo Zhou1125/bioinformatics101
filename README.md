@@ -1,6 +1,32 @@
 # bioinformatics101
 
 
+
+
+
+ANZ PacBio Bioinformatics Workshop Series - AGRF 2021
+
+21st October 2021
+
+
+
+
+
+
+
+
+
+
+Thanks Khi Pin. My experience with LAI is that when BUSCO scores get high the LAI is better able to resolve the "completeness" picture of genome assemblies.
+
+
+
+
+
+
+
+
+
 New long-reads mapper Vulcan
 
 
