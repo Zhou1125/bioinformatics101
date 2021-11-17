@@ -40,6 +40,9 @@ gfatools gfa2fa -s graph.gfa > out.stable.fa
 And I can visualize with Bandage tool or [AGB](https://github.com/almiheenko/AGB)
 
 
+I see today the tool [odgi](https://odgi.readthedocs.io/en/latest/rst/quick_start.html) on PGEC2021 | [presentation](https://docs.google.com/presentation/d/1d52kaiOqeH4db4LyMHn7YNjv-mBKvhY2t2zQMNvzgno/edit#slide=id.gee36333ae2_2_392)
+
+
 
 
 
