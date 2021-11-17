@@ -2,6 +2,11 @@
 
 
 
+
+Details minion protocol is [here](https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0232071/1/pone.0232071.s001.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20211117%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20211117T062309Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=96cf357b2e47b0f863710daf7dbcb30ad96b94ad91292f7aec708f8d2eab72edcd07f276f03636236c3447c2628b590b12b4215121065d69b1f636e3126f85bddd82a9c69372a78d386981f83f94dac15179a85822a81e5f3d882d43bda46e61d251ddd1d0ca6b80693555254636cd9a1fc3ea4311091f9947f1380d2a3298e8cc9a913471d76f8cc321935867a12d2e077c84d3f92999a82ce6149e8bf8dc24cbb5d6bcb779cc7de5e790632934307ed35c2362ec66c0574dfc1cae45be7949c820e401eb7c56b4d372965317ca0490b8037f36a9f511fadb2cdd927abf490e41c8f54b048484947b6baaaa13ba07ff7e23171c07e272fbf896b211c2d0cbd1)
+
+
+
 [2020 UCDAVIS Assembly workshop](https://ucdavis-bioinformatics-training.github.io/2020-Genome_Assembly_Workshop/kmers/QAQC)
 
 
