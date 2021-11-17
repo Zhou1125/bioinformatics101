@@ -1,5 +1,45 @@
 # bioinformatics101
 
+Idea
+
+Use minigraph to construct the pangenome graph
+
+
+minigraph is simple to use and available on conda
+
+
+Installation
+
+```
+conda install minigraph
+
+```
+
+
+Then
+
+
+Generate the pan genome graph
+
+
+```
+minigraph -xggs -t16 ref.fa sample1.fa sample2.fa > out.gfa
+
+```
+
+The output rGFA can be converted to a FASTA file with gfatools
+
+
+```
+
+gfatools gfa2fa -s graph.gfa > out.stable.fa
+
+
+```
+
+And I can visualize with Bandage tool or [AGB](https://github.com/almiheenko/AGB)
+
+
 
 
 
