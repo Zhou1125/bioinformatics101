@@ -27,7 +27,7 @@ minigraph -xggs -t16 ref.fa sample1.fa sample2.fa > out.gfa
 
 ```
 
-The output rGFA can be converted to a FASTA file with gfatools
+The output rGFA can be converted to a FASTA file with [gfatools](https://bioconda.github.io/recipes/gfatools/README.html)
 
 
 ```
