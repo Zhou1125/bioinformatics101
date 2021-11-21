@@ -13,6 +13,8 @@ Utiliser nucmer pour faire snp et la comparaison macrosyntheny puis utiliser R s
 
 La figure 1 comprendra le circos plot (Zhongzhi et Goenbaek), busco (Les six assembly), LAI et [assemblitics](http://assemblytics.com/) data 
 
+May be do reference-based assembly with [Ragtag](https://github.com/malonge/RagTag)
+
 
 
 
