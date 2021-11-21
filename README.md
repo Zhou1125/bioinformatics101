@@ -1,5 +1,41 @@
 # bioinformatics101
 
+Idea pour la figure 1
+
+Faire un circos map avec les deux chromosome Zhongzhi13 et Goenbaek.
+
+Faire ressortir LTR position, SNP et Gene distribution avec 500 kbp come window Example de Malonge. Le preprint est [ici](https://www.biorxiv.org/content/10.1101/2021.11.18.469135v1.full.pdf).
+
+Pour se faire, utiliser LTR_retriever. La version conda est disponible [ici](https://github.com/oushujun/LTR_retriever/blob/master/README.md#quick-installation-using-conda).
+
+Utiliser nucmer pour faire snp et la comparaison macrosyntheny puis utiliser R shiny pour le bouquet final.disponible [ici](https://venyao.xyz/shinyCircos/)
+
+
+La figure 1 comprendra le circos plot (Zhongzhi et Goenbaek), busco (Les six assembly), LAI et [assemblitics](http://assemblytics.com/) data 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Idea
 
 Use minigraph to construct the pangenome graph
