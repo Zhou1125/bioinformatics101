@@ -28,6 +28,9 @@ cut -f 1,2,3,4,8 > genecounts.txt
 
 ```
 
+
+this help a [bit](https://bioinf.cc/misc/2020/07/12/circos-histograms.html)
+
 Idea pour la figure 1
 
 Faire un circos map avec les deux chromosome Zhongzhi13 et Goenbaek.
