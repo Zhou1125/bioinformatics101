@@ -1,5 +1,33 @@
 # bioinformatics101
 
+
+Excellent pour cet affaire de gene density la [ici](https://biohpc.cornell.edu/lab/doc/linux_examples_exercises_v5.html)
+
+le code est 
+
+
+```
+bedtools makewindows -g hg19.txt -w 1000000 -s 1000000 > win1mb.bed
+
+zcat human.gff3.gz | \
+awk 'BEGIN {OFS = "\t"}; {if ($3=="gene") print $1,$4-1,$5}' | \
+bedtools coverage -a win1mb.bed -b stdin -counts | \
+LC_ALL=C sort -k1,1V -k2,2n > gene.cover.bed
+
+ 
+zcat human.gff3.gz | \
+awk 'BEGIN {OFS = "\t"}; \
+{if (($3=="processed_pseudogene") || ($3=="pseudogene")) print $1,$4-1,$5}' | \
+bedtools coverage -a win1mb.bed -b stdin -counts | \
+LC_ALL=C sort -k1,1V -k2,2n > pseudogene.cover.bed
+
+ 
+paste gene.cover.bed pseudogene.cover.bed | \
+cut -f 1,2,3,4,8 > genecounts.txt
+
+
+```
+
 Idea pour la figure 1
 
 Faire un circos map avec les deux chromosome Zhongzhi13 et Goenbaek.
