@@ -1,5 +1,14 @@
 # bioinformatics101
 
+[About DiscoSnp is designed for discovering all kinds of SNPs (not only isolated ones), as well as insertions and deletions, from raw set(s) of reads.](https://github.com/GATB/DiscoSnp)
+
+
+
+
+
+
+
+
 
 Excellent pour cet affaire de gene density la [ici](https://biohpc.cornell.edu/lab/doc/linux_examples_exercises_v5.html)
 
